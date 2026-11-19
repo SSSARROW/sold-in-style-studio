@@ -11,7 +11,7 @@ then open http://127.0.0.1:5173
 Drag the folder into Netlify / Vercel / any static host (exclude `assets/raw`).
 
 ## Replace before launch
-- `hello@soldinstylestudio.com`: placeholder email (index.html footer + `STUDIO_EMAIL` in js/main.js)
+- Studio email is `info@soldinstylestudio.com` (index.html footer + `STUDIO_EMAIL` in js/main.js)
 - Instagram link in the footer points to instagram.com (placeholder)
 - The form opens the visitor's mail app (mailto). For real submissions, point it at Formspree / Netlify Forms.
 

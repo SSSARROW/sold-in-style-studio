@@ -427,6 +427,8 @@ ul { list-style: none; padding: 0; }
 .contact__copy > p { color: rgba(247,244,238,.72); max-width: 44ch; }
 .contact__direct { display: grid; gap: 6px; padding-top: 24px; border-top: 1px solid var(--line-l); }
 .contact__phone { font-family: var(--f-display); font-size: clamp(30px, 3vw, 46px); }
+.contact__email { width: fit-content; font-size: clamp(16px, 1.3vw, 19px); color: var(--taupe); margin-bottom: 6px; background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .6s var(--ease); }
+.contact__email:hover { background-size: 100% 1px; }
 .contact__direct span { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: rgba(247,244,238,.55); }
 
 .form { display: grid; gap: 22px; background: rgba(22,22,26,.55); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border: 1px solid var(--line-l); padding: clamp(24px, 3.4vw, 52px); }

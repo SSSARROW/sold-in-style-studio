@@ -151,7 +151,7 @@
      Enquiry form (mailto hand-off; swap for a form backend later)
   ------------------------------------------------------------------ */
   const form = $('#enquiry');
-  const STUDIO_EMAIL = 'hello@soldinstylestudio.com'; // TODO: replace with the studio's real inbox
+  const STUDIO_EMAIL = 'info@soldinstylestudio.com';
   form.addEventListener('submit', e => {
     e.preventDefault();
     const status = $('.form__status', form);
